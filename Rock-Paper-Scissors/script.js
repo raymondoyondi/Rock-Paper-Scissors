@@ -73,7 +73,7 @@ function printRound() {
 
 function checkGameOver() {
     if(round == 6) {
-        alert('Game Selesai!');
+        alert('Game over!');
         showFinalScore();
 	      reset();
     }
